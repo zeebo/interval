@@ -1,0 +1,5 @@
+github.com/zeebo/assert v0.0.0-20181109011804-10f827ce2ed6/go.mod h1:yssERNPivllc1yU3BvpjYI5BUW+zglcz6QWqeVRL5t0=
+github.com/zeebo/mon v0.0.0-20181109012046-6fe8ca9ab1ba h1:KhPN+aL7conD9rjCNu9oEwuQvjI3Cy22RC/2UiIH1Kc=
+github.com/zeebo/mon v0.0.0-20181109012046-6fe8ca9ab1ba/go.mod h1:CfPE90GAZEDNS3DSJW0lMju6JToigyqB8TJB3v9pE9U=
+github.com/zeebo/mon v0.0.0-20181109183840-d0ee7510c540 h1:j/DrVEJE6W+43sjLIVhRCZQ3tMPt2eInnpe7uVC1UJ8=
+github.com/zeebo/mon v0.0.0-20181109183840-d0ee7510c540/go.mod h1:CfPE90GAZEDNS3DSJW0lMju6JToigyqB8TJB3v9pE9U=
