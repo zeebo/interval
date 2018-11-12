@@ -46,8 +46,8 @@ func New(ints []Interval) *Tree {
 	}
 }
 
-// Size returns the length of the nodes that match the center
-func (t *Tree) Size() int {
+// size returns the length of the nodes that overlap the center
+func (t *Tree) size() int {
 	if t == nil {
 		return 0
 	}
@@ -57,7 +57,7 @@ func (t *Tree) Size() int {
 // String returns a string summary of the tree.
 func (t *Tree) String() string {
 	return fmt.Sprintf("Tree(center:%d, size:%d, left:%d, right:%d)",
-		t.center, t.Size(), t.left.Size(), t.right.Size())
+		t.center, t.size(), t.left.size(), t.right.size())
 }
 
 // findCenter attempts to find a midinterval that cuts the intervals
